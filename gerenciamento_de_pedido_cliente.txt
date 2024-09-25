@@ -1,0 +1,41 @@
+Definicoes:
+	Desenvolver um software de interface de compras
+	Sistema onlie de compra de bebida
+	Exibir todos os produtos independente da presença deles no estoque, pois 
+	MODELAGEM DO PROCESSO, definicao do que o processo sera capaz de realizar
+CLIENTE: 
+	Cervejaria do Pedro
+PROCESSO: Gerenciamento de pedido de cliente
+OBJETIVO:	
+	Assegurar que o pedido seja efetuado de forma correta, seja processado pelo sistema e concluido atraves do pagamento.	
+ATIVIDADE (METODOS) DO PROCESSO:
+	intput1: Receber e armazenar de forma correta o pedido
+		Checar disponibilidade no estoque
+			CASO N: perguntar se o cliente deseja realizar outro pedido
+	output1: Gerar a nota para compra do cliente
+		Confirmar o pedido
+			CASO N: Finalizar o procedimento de pedido
+	input2: Checar o processo de pagamento
+			CASON N: exibir qual problema do pagamento (ex. saldo insuficiente)
+				input2.1: Realizar novo pagamento
+					CASON N: Finalizar processo
+	output2: Gerar o comprovante de compra	
+	
+	O processo de gerenciamento de pedido do cliente precisa receber o pedido, realizar uma analize da viabilidade do mesmo e entao gerar a nota para compra do cliente.
+	Gerada a nota, o processo de compra sera realizado e, caso efetuado corretamente, sera gerado o comprovante de compra.
+	
+Papeis e Responalidade:
+	Cazuza\Maeus.	Programador 
+			1. Desenvoler
+			2. Debugar
+			3. Entregar
+	Pegro.	Analista
+		1. Traducao de Funicionabilidades desejadas em um algoritmo
+		2. Diagrama UML
+		3. Testes de versoes de programa
+		4. Revisao de 1/2
+	Miel	Gerente de Projeto	
+		1. Acomapanhamento do desenvolvimento
+		2. Definir metas de entrega
+		3. Atualizacoes de cronogramas
+Ferram
