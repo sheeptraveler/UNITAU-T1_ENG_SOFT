@@ -1,3 +1,8 @@
+Caua dos Santos
+Mateus Hashimoto
+Miguel de Paulo
+Pedro Nassif
+
 Definicoes:
 	Desenvolver um software de interface de compras
 	Sistema onlie de compra de bebida
@@ -38,4 +43,13 @@ Papeis e Responalidade:
 		1. Acomapanhamento do desenvolvimento
 		2. Definir metas de entrega
 		3. Atualizacoes de cronogramas
-Ferram
+
+Ferramentas Utilizadas
+  1 nvim - editor\debugger  Producao de codigo
+    Sera utilizado para producao do codigo cujo resultado esperado esta sintetizado no diagrama de fluxo.
+  2 github - controlador de versao 
+    Atravesa do git e do servidor github sera possivel que mais de uma pessoa tenha acesso ao codigo atualizado, permitindo o progresso em paralelo do desenvolvimento.
+
+Criterios de Sucesso e monitoramento de execucao*(Metricas)
+
+
